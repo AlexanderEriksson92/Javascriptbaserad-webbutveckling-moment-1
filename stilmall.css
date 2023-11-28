@@ -3,13 +3,13 @@
     Fyll i egna CSS-regler här under för att snygga till webbsidan
 */
 body {
-    font-family: georgia, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.6em;
     background-color: #ccc;
 }
 .container {
-    width: 600px;
+    width: 800px;
     padding: 20px;
     border-radius: 8px;
     background-color: #fff;
@@ -22,17 +22,35 @@ thead td { font-weight: bold; }
 
 footer {
     margin-top: 2em; font-size: 14px; color: #666;
+    text-align: center;
 }
 
 thead td:nth-child(1) { width: 25%; }
 thead td:nth-child(2) { width: 65%; }
 td:nth-child(3) { width: 10%; text-align: center; }
-tr:nth-child(even) { background-color: #ccc; }
+tr:nth-child(even) { background-color: #ccd8f1; }
 
 table {
     border-collapse: collapse;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
 }
-
+tr:hover {
+    background-color: #bed0f7;
+}
+th {
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+tr {
+    border-top: 1px solid #dee2e6;
+}
+td, th {
+    padding: 1rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
 .kurser {
     margin: 1em 0 1em 0; 
 }
